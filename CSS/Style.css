@@ -1,0 +1,61 @@
+html {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  /*Above code taken from GoogleFonts*/ 
+  color: #7C99AC; 
+  background-color: #D3DEDC;
+    
+      }
+
+
+
+ .container {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+nav ul{
+    list-style-type: none ;
+    font-weight: bold;
+    position: fixed;
+    right: 0px;  
+}    
+
+a:hover{
+    color: #; 
+}
+
+.cover-image {
+    height: 600px;
+    justify-content: center;
+    margin-bottom: 100px;
+    width: fit-content;
+    
+}
+
+img {
+    
+    height: 150px; 
+}
+
+.three {
+    width: ;
+}
+
+
+.landing-images :hover {
+    opacity: 75%;
+}
+
+
+
+footer {
+    background-color: #305973;
+
+}
