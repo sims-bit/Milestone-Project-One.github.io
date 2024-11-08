@@ -1,61 +1,68 @@
 html {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  /*Above code taken from GoogleFonts*/ 
-  color: #7C99AC; 
-  background-color: #D3DEDC;
-    
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    /*Above code taken from GoogleFonts*/ 
+    color: #7C99AC; 
+    background-color: #D3DEDC;
       }
-
-
-
- .container {
+  
+.container {
     display: flex; 
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    
-}
+}   
+  
+.signture, nav  ul {
+      list-style-type: none ;
+      font-weight: bold;
+      position: fixed;
+      right:  
+    }    
 
-nav ul{
-    list-style-type: none ;
-    font-weight: bold;
-    position: fixed;
-    right: 0px;  
-}    
+  a {
+    text-decoration: none;
+  }
 
-a:hover{
-    color: #; 
-}
-
-.cover-image {
-    height: 600px;
-    justify-content: center;
-    margin-bottom: 100px;
-    width: fit-content;
-    
-}
-
-img {
-    
-    height: 150px; 
-}
-
-.three {
-    width: ;
-}
-
-
-.landing-images :hover {
-    opacity: 75%;
-}
-
-
-
-footer {
-    background-color: #305973;
-
-}
+  
+  a:hover{
+      color: #; 
+  }
+  
+  .cover-image {
+      height: 600px;
+      justify-content: center;
+      margin-bottom: 100px;
+      width: fit-content;
+      
+  }
+  
+  img { /*specfi to anchored img*/
+      
+      height: 150px; 
+  }
+  
+  .three {
+      width: ;
+  }
+  
+  
+  .landing-images :hover {
+      opacity: 75%;
+  }
+  
+  .cform{
+    border-radius: 5%; 
+    }
+  
+  form {
+    ;
+  }
+  
+  footer {
+      background-color: #305973;
+  
+  }
+  
