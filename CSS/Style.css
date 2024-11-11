@@ -1,11 +1,106 @@
 html {
-    font-family: "Quicksand", sans-serif;
+  font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  font-weight: auto;
+  color: #7C99AC; 
+  background-color: #D3DEDC
+}
+
+a {
+  text-decoration: none;
+  /* anchor color ?*/ 
+}
+
+h3 {
+  font-size: 1em;
+}
+
+ul{
+  list-style-type: none;
+  width: fit-content;
+  float: right;
+}
+
+nav {
+  border: 2px solid green; 
+  width: 800px; 
+  height: 150px; 
+  text-align: ; 
+}
+
+img {
+  height: px; 
+  width: 350px; 
+}
+
+body {
+  margin: 20px; 
+}
+
+.container {
+  height: 800px;
+  display: flex;
+  flex-flow: wrap;
+  border: 2px solid red;
+  flex-direction: row;
+  justify-content: space-around;
+
+  
+}
+
+#cover {
+  width: 800px; /* width stuff - responsive help */
+  margin-bottom: 50px;
+  border: 2px solid purple;
+}
+
+.landing {
+  width: inherit 50%; /* QUESTIONABLE*/ 
+  border: 2px solid black;
+  flex-direction: row; 
+  justify-content: space-around;
+}
+
+p {
+  align-items: flex-start;
+  width: 50%;
+}
+
+.exhibtions {
+  float;
+  
+}
+
+.cform{
+  border-radius: 5%; 
+  align-items: flex-end;
+  }
+
+aside {
+  border: 2px solid;
+  text-align: right; 
+}  
+
+form {
+  border: 2px solid ;
+}
+
+
+
+
+footer {
+  align-self: flex-end; 
+  /* want this to the left too*/
+}
+
+
+/*
+html {
+    font-family: sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    /*Above code taken from GoogleFonts*/ 
-    color: #7C99AC; 
-    background-color: #D3DEDC;
+    /*Above code taken from GoogleFonts 
+    ;
       }
   
 .container {
@@ -15,16 +110,16 @@ html {
     justify-content: center;
 }   
   
-.signture, nav  ul {
+.signature, nav  ul {
       list-style-type: none ;
       font-weight: bold;
-      position: fixed;
-      right:  
-    }    
+      align-items: center;
 
-  a {
-    text-decoration: none;
-  }
+     
+    }  
+        
+
+  
 
   
   a:hover{
@@ -39,9 +134,10 @@ html {
       
   }
   
-  img { /*specfi to anchored img*/
+  img { /*specfi to anchored img*
       
       height: 150px; 
+      flex-direction: row; 
   }
   
   .three {
@@ -53,9 +149,7 @@ html {
       opacity: 75%;
   }
   
-  .cform{
-    border-radius: 5%; 
-    }
+  
   
   form {
     ;
@@ -65,4 +159,4 @@ html {
       background-color: #305973;
   
   }
-  
+  */
