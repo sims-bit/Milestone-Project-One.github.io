@@ -44,13 +44,14 @@ img {
   height: 300px; 
 }
 
-.exhibition{
+.exhibition {
   float: right;   
 }  
 
-.one-image {
+.one-image, .two-image, .three-image{
   padding-left: 10px;
   margin-top: 20px; 
+
 }
 
 .cform{
