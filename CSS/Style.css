@@ -13,7 +13,8 @@ a{
 
 
 #cover {
-  width: 850px;
+  width: 100%;
+  max-width: 800px;
   height: auto; 
   margin-bottom: 25px;
 }
@@ -23,8 +24,15 @@ ul{
   
 }
 
+header {
+  width: 100%;
+  max-width: 800px;
+  text-align: right;
+
+}
+
 nav {
-  float: right;
+  width: 100%; 
 }
 
 .landing {
@@ -50,7 +58,7 @@ img {
   align-items: flex-end;
   }
 
-h3 h4 {
+h3, h4 {
   font-size: 1em;
   color:  #305973; 
 }
