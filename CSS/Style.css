@@ -54,6 +54,10 @@ img {
 
 }
 
+.profile {
+  margin-bottom: 10px;
+}
+
 .cform{
   border-radius: 5%; 
   align-items: flex-end;
@@ -68,6 +72,9 @@ p, h2 {
   color:  #305973; 
 }
 
+main {
+  width: 100%; 
+}
 
 /*
 nav {
