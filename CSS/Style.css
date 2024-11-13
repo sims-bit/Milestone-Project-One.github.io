@@ -1,25 +1,65 @@
 html {
   font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
-  font-weight: auto;
-  color: #7C99AC; 
-  background-color: #D3DEDC
+  font-weight: auto; 
 }
 
-a {
+body {
+  background-color: #D3DEDC;   
+}
+a{
   text-decoration: none;
-  /* anchor color ?*/ 
+  color: #305973; 
 }
 
-h3 {
-  font-size: 1em;
+
+#cover {
+  width: 850px;
+  height: auto; 
+  margin-bottom: 25px;
 }
 
 ul{
   list-style-type: none;
-  width: fit-content;
+  
+}
+
+nav {
   float: right;
 }
 
+.landing {
+  height: 300px; 
+  margin-bottom: 50px; 
+} 
+
+img {
+  height: 300px; 
+}
+
+.exhibition{
+  float: right;   
+}  
+
+.one-image {
+  padding-left: 10px;
+}
+
+.cform{
+  border-radius: 5%; 
+  align-items: flex-end;
+  }
+
+h3 h4 {
+  font-size: 1em;
+  color:  #305973; 
+}
+
+p {
+  color:  #305973; 
+}
+
+
+/*
 nav {
   border: 2px solid green; 
   width: 800px; 
@@ -36,25 +76,11 @@ body {
   margin: 20px; 
 }
 
-.container {
-  height: 800px;
-  display: flex;
-  flex-flow: wrap;
-  border: 2px solid red;
-  flex-direction: row;
-  justify-content: space-around;
 
-  
-}
 
-#cover {
-  width: 800px; /* width stuff - responsive help */
-  margin-bottom: 50px;
-  border: 2px solid purple;
-}
 
 .landing {
-  width: inherit 50%; /* QUESTIONABLE*/ 
+  width: 50%; /* QUESTIONABLE
   border: 2px solid black;
   flex-direction: row; 
   justify-content: space-around;
@@ -65,8 +91,8 @@ p {
   width: 50%;
 }
 
-.exhibtions {
-  float;
+.Exhibition{
+  border: 2px green;
   
 }
 
@@ -90,7 +116,6 @@ form {
 footer {
   align-self: flex-end; 
   /* want this to the left too*/
-}
 
 
 /*
@@ -155,8 +180,5 @@ html {
     ;
   }
   
-  footer {
-      background-color: #305973;
   
-  }
   */
