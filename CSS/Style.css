@@ -61,6 +61,7 @@ img {
 .cform{
   border-radius: 5%; 
   align-items: flex-end;
+  display: block;
   }
 
 h3, h4 {
