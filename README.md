@@ -14,8 +14,13 @@ The site must be clear, and the images and work well define, to differentiate be
 The site must be minimalist to not distract from the images of artists work. 
 
 #### Scope – Content 
-The ideal customer visiting the website would consist of galleries and private buyers. Visitors would also include curators as well as students. 
+The ideal customer visiting the website would consist of galleries, private buyers as well as small boutique businesses. Private buyers would be from affluent social economical backgrounds. 
+where? 
+
+Visitors to the site would also include curators as well as students. 
 Clearly illustrate who the artist is, inform the site visitor of the artists current exhibitions and the future exhibitions. 
+
+
 
 #### Structure 
 
@@ -56,39 +61,51 @@ A Contact Page, containing a contact form, with the text area input set to requi
  
 #### Technologies
 
-Visual Studio Code 
-Github 
-Git
-HTML 
-CSS 
-Bootstrap V5.3.x 
-W3C HTML & CSS validator.  
-Tinypng.com 
-Beautifier. 
-Unsplash.com
-Pexels.com
-imagecompressor.com
-ChatGPT
-Colorhunt.co
-Dev Tools
-
+- Visual Studio Code 
+- Github 
+- Git
+- HTML 
+- CSS 
+- Bootstrap V5.3.x 
+- W3C HTML & CSS validator.  
+- Tinypng.com 
+- Beautifier. 
+- Unsplash.com
+- Pexels.com
+- imagecompressor.com
+- ChatGPT
+- Colorhunt.co
+- Dev Tools
 
 
 
 #### Testing 
-The site was tested on various screen sizes through Dev Tools to ensure website responsiveness.  
-I manually tested the links and anchored images of the site to ensure its working. 
-The code was put through W3C HTML & CSS validator.   
+The site was put through W3C HTML & CSS validator.   
 I acquired user testing for the site. 
+The site was tested on various screen sizes through Dev Tools to ensure website responsiveness across a variety of .   
+
+#### Manual Testing
+- I tested the links and anchored images of the site to ensure its working.
+- I tested that the social media button works and takes you to a new window
+- 
+
 
 #### Bugs and Fixes
 A issue that I encountered was  the renaming of my files in keeping with industry standard.  Requiring a change in my git config settings to stop being case insensitive as it was preventing the renaming of the files.
-In running the site code through the validator, it illustrated several issues with my code. 
- 
-Mainly being the issues with regards to my file paths, from the use of invalid characters. I was able to fix this and restore the images to the code.
-I unfortunately found several floating <div> tags within the code, I was able to locate and fix. 
-Deployment
+In running the site code through the validator, it illustrated several issues with my code. Mainly being the issues with regards to my file paths, from the use of invalid characters. I was able to fix this and restore the images to the code. I unfortunately found several floating <div> tags within the code, I was able to locate and fix.
+
+Another bug that I encountered was the body container hugging the left of the screen on the index page and the project-three-page. I was able to find that on the index page I had implemented the container class in the wrong tag and on project-three-page I had not included the container class which would fix the layout issue to centralise the page body.  
+
+#### Deployment
 Using Visual Studio Code to write my code. I created a GitHub repository, going on to clone it locally, developing it locally, committing and pushing to the remote repository.  Going on to deploy my site to GitHub, by following the guidance document. 
+
+
+
+#### Browser Compatibility
+I have tested my site on the following: 
+-	Firefox and Microsoft edge (desktop only)
+-	Chrome (desktop and mobile)
+
 
 
 #### Credits
