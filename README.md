@@ -32,11 +32,11 @@ Clearly illustrate who the artist is, inform the site visitor of the artists cur
 
 #### Skeleton 
 
-![frame](./Readme-media/Full-frame.jpg)
+![frame] (./Readme-media/full-frame.jpg)
 
 ![frame2](./Readme-media/contact-and-about-frame.jpg)
 
-![frame2](./Readme-media/Landing-frame.jpg)
+![frame2](./Readme-media/landing-frame.jpg)
 
 ![frame2](./Readme-media/project-frame.jpg)
 
@@ -87,25 +87,25 @@ The site was tested on various screen sizes through Dev Tools to ensure website 
 #### Manual Testing
 - I tested the links and anchored images of the site to ensure its working.
 - I tested that the social media button works and takes you to a new window
-- 
+- I tested that the contact form submit button worked, resulting in the information being sent to the code institute form dump. 
 
 
 #### Bugs and Fixes
 A issue that I encountered was  the renaming of my files in keeping with industry standard.  Requiring a change in my git config settings to stop being case insensitive as it was preventing the renaming of the files.
 In running the site code through the validator, it illustrated several issues with my code. Mainly being the issues with regards to my file paths, from the use of invalid characters. I was able to fix this and restore the images to the code. I unfortunately found several floating <div> tags within the code, I was able to locate and fix.
+My site did not pass the css validation initially, due to a value error. I corrected the issue and my css passed the validation. 
 
-Another bug that I encountered was the body container hugging the left of the screen on the index page and the project-three-page. I was able to find that on the index page I had implemented the container class in the wrong tag and on project-three-page I had not included the container class which would fix the layout issue to centralise the page body.  
+Another bug that I encountered was the body container hugging the left of the screen on the index page and the project-three-page. I was able to find that on the index page I had implemented the container class in the wrong tag and on project-three-page I had not included the container class which would fix the layout issue to centralise the page body. 
+
+<img src="./Readme-media/css-fail-validation.png" width="200px" height="auto">
 
 #### Deployment
 Using Visual Studio Code to write my code. I created a GitHub repository, going on to clone it locally, developing it locally, committing and pushing to the remote repository.  Going on to deploy my site to GitHub, by following the guidance document. 
-
-
 
 #### Browser Compatibility
 I have tested my site on the following: 
 -	Firefox and Microsoft edge (desktop only)
 -	Chrome (desktop and mobile)
-
 
 
 #### Credits
