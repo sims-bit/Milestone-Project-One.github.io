@@ -8,6 +8,8 @@ User Two- I enjoyed the colours of the site, the website flows nicely.
 
 #### Strategy 
 The aim of the website is to showcase the artists portfolio, furthermore, to provide a contact space for acquisition of artists’ work. 
+Advertise,
+to provide information of upcoming and previous exhibitions.
 
 #### Scope – Function
 The site must be clear, and the images and work well define, to differentiate between the projects.
@@ -16,6 +18,7 @@ The site must be minimalist to not distract from the images of artists work.
 #### Scope – Content 
 The ideal customer visiting the website would consist of galleries, private buyers as well as small boutique businesses. Private buyers would be from affluent social economical backgrounds. 
 where? 
+
 
 Visitors to the site would also include curators as well as students. 
 Clearly illustrate who the artist is, inform the site visitor of the artists current exhibitions and the future exhibitions. 
@@ -34,18 +37,11 @@ Clearly illustrate who the artist is, inform the site visitor of the artists cur
 
 <img src="./Readme-media/full-frame.jpg" width= "200px" height="auto">
 <br>
-<img src="./Readme-media/full-frame.jpg" width= "200px" height="auto">
+<img src="./Readme-media/contact-and-about-frame.jpg" width= "200px" height="auto">
 <br>
-<img src="./Readme-media/full-frame.jpg" width= "200px" height="auto">
+<img src="./Readme-media/landing-frame.jpg" width= "200px" height="auto">
 <br>
-<img src="./Readme-media/full-frame.jpg" width= "200px" height="auto">
-![frame] (./Readme-media/full-frame.jpg)
-
-![frame2](./Readme-media/contact-and-about-frame.jpg)
-
-![frame2](./Readme-media/landing-frame.jpg)
-
-![frame2](./Readme-media/project-frame.jpg)
+<img src="./Readme-media/project-frame.jpg" width= "200px" height="auto">
 
  
 
@@ -65,6 +61,8 @@ A Contact Page, containing a contact form, with the text area input set to requi
 -	A artwork purchasing page work on the website.
 -	Developing a logo in future.
 -	Expanding the social media links and presence. 
+
+#### Screenshots of site pages
 
 <img src="./Readme-media/screenshot-fixed-danielharman-portfolio.png" width="200px" height="auto">
 <img src="./Readme-media/screenshot-danielharman-contact.png" width="200px" height="auto">
@@ -93,12 +91,10 @@ A Contact Page, containing a contact form, with the text area input set to requi
 - Colorhunt.co
 - Dev Tools
 
-
-
 #### Testing 
 The site was put through W3C HTML & CSS validator.   
 I acquired user testing for the site. 
-The site was tested on various screen sizes through Dev Tools to ensure website responsiveness across a variety of .   
+The site was tested on various screen sizes through Dev Tools to ensure website responsiveness across a variety of.   
 
 #### Manual Testing
 - Testing the anchored images on the landing page of the site to 
@@ -108,19 +104,36 @@ The site was tested on various screen sizes through Dev Tools to ensure website 
 - Clicking the links in the navigation will take you to the correct pages.
 - Checking the navigation works on all pages.
 - Checking the images are not stretched or pixelated larger screens. 
+- Testing that the video plays and has controls. 
 
 
 #### Bugs and Fixes
 A issue that I encountered was  the renaming of my files in keeping with industry standard.  Requiring a change in my git config settings to stop being case insensitive as it was preventing the renaming of the files.
-In running the site code through the validator, it illustrated several issues with my code. Mainly being the issues with regards to my file paths, from the use of invalid characters. I was able to fix this and restore the images to the code. I unfortunately found several floating <div> tags within the code, I was able to locate and fix.
+In running the site code through the validator, it illustrated several issues with my code. Mainly being the issues with regards to my file paths, from the use of invalid characters. I was able to fix this and restore the images to the code. I unfortunately found several floating <div> tags within the code left over from development, I was able to locate and fix.
 My site did not pass the css validation initially, due to a value error. I corrected the issue and my css passed the validation. 
 
 Another bug that I encountered was the body container hugging the left of the screen on the index page and the project-three-page. I was able to find that on the index page I had implemented the container class in the wrong tag and on project-three-page I had not included the container class which would fix the layout issue to centralise the page body. 
 
+Putting the site through the valiidator also found that on the about.page, I had miss labeled an aria-label and had not assigned the height to the video tag properly. I fix --------
+
+
+<img src="./Readme-media/testing-contact-form-form-dumb.png" width="200px" height="auto" alt="screenshot of working contact form, resulting being taken to form dump.">
+
 <img src="./Readme-media/css-fail-validation.png" width="200px" height="auto" alt="screenshot of css failing validation">
 <img src="./Readme-media/css-validator-pass.png" width="200px" height="auto" alt="Screenshot of css passing validation">
 
-<img>  
+<img src="./Readme-media/validation-fail-about-pg.png" width="200px" height="auto" alt="screenshot of about page failing validation">
+<img src="./Readme-media/validation-about-pg-pass.png" width="200px" height="auto" alt="screenshot of about page passing validation">  
+
+<img src="" width="200px" height="auto" alt="">
+<img src="" width="200px" height="auto" alt="">
+<img src="" width="200px" height="auto" alt="">
+<img src="" width="200px" height="auto" alt="">
+<img src="" width="200px" height="auto" alt="">
+<img src="" width="200px" height="auto" alt="">
+<img src="" width="200px" height="auto" alt="">
+
+
 
 #### Deployment
 Using Visual Studio Code to write my code. I created a GitHub repository, going on to clone it locally, developing it locally, committing and pushing to the remote repository.  Going on to deploy my site to GitHub, by following the guidance document. 
@@ -131,7 +144,7 @@ I have tested my site on the following:
 -	Chrome (desktop and mobile)
 
 
-#### Credits
+#### Credits/ Attributes 
 The general text of the website was generated through ChatGPT. 
 The Instagram icon in the footer was generated through Bootstrap.  I also utilized Bootstrap for grid layout and responsive design. 
 The media from the site were taken from Unsplash.com and pexels.com. With the images being compressed using tinypng.com and imagecompressor.com. 
