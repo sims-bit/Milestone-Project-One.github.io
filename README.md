@@ -32,6 +32,13 @@ Clearly illustrate who the artist is, inform the site visitor of the artists cur
 
 #### Skeleton 
 
+<img src="./Readme-media/full-frame.jpg" width= "200px" height="auto">
+<br>
+<img src="./Readme-media/full-frame.jpg" width= "200px" height="auto">
+<br>
+<img src="./Readme-media/full-frame.jpg" width= "200px" height="auto">
+<br>
+<img src="./Readme-media/full-frame.jpg" width= "200px" height="auto">
 ![frame] (./Readme-media/full-frame.jpg)
 
 ![frame2](./Readme-media/contact-and-about-frame.jpg)
@@ -58,6 +65,15 @@ A Contact Page, containing a contact form, with the text area input set to requi
 -	A artwork purchasing page work on the website.
 -	Developing a logo in future.
 -	Expanding the social media links and presence. 
+
+<img src="./Readme-media/screenshot-fixed-danielharman-portfolio.png" width="200px" height="auto">
+<img src="./Readme-media/screenshot-danielharman-contact.png" width="200px" height="auto">
+<img src="./Readme-media/screenshot-danielharman-about.png" width= "200px" height="auto">
+<img src="./Readme-media/screenshot-danielharman-projectone.png" width= "200px" height="auto">
+<img src="./Readme-media/screenshot-danielharman-projecttwo.png" width= "200px" height="auto">
+<img src="./Readme-media/screenshot-fixed-danielharman-projectthree.png" width= "200px" height="auto">
+<img src="./Readme-media/screenshot-danielharman-projectfour.png" width= "200px" height="auto">
+
  
 #### Technologies
 
@@ -85,9 +101,13 @@ I acquired user testing for the site.
 The site was tested on various screen sizes through Dev Tools to ensure website responsiveness across a variety of .   
 
 #### Manual Testing
-- I tested the links and anchored images of the site to ensure its working.
+- Testing the anchored images on the landing page of the site to 
 - I tested that the social media button works and takes you to a new window
 - I tested that the contact form submit button worked, resulting in the information being sent to the code institute form dump. 
+- Testing that the additional information was required within the form. 
+- Clicking the links in the navigation will take you to the correct pages.
+- Checking the navigation works on all pages.
+- Checking the images are not stretched or pixelated larger screens. 
 
 
 #### Bugs and Fixes
@@ -97,7 +117,10 @@ My site did not pass the css validation initially, due to a value error. I corre
 
 Another bug that I encountered was the body container hugging the left of the screen on the index page and the project-three-page. I was able to find that on the index page I had implemented the container class in the wrong tag and on project-three-page I had not included the container class which would fix the layout issue to centralise the page body. 
 
-<img src="./Readme-media/css-fail-validation.png" width="200px" height="auto">
+<img src="./Readme-media/css-fail-validation.png" width="200px" height="auto" alt="screenshot of css failing validation">
+<img src="./Readme-media/css-validator-pass.png" width="200px" height="auto" alt="Screenshot of css passing validation">
+
+<img>  
 
 #### Deployment
 Using Visual Studio Code to write my code. I created a GitHub repository, going on to clone it locally, developing it locally, committing and pushing to the remote repository.  Going on to deploy my site to GitHub, by following the guidance document. 
