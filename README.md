@@ -125,18 +125,20 @@ Putting the site through the valiidator also found that on the about.page, I had
 <img src="./Readme-media/validation-fail-about-pg.png" width="200px" height="auto" alt="screenshot of about page failing validation">
 <img src="./Readme-media/validation-about-pg-pass.png" width="200px" height="auto" alt="screenshot of about page passing validation">  
 
-<img src="" width="200px" height="auto" alt="">
-<img src="" width="200px" height="auto" alt="">
-<img src="" width="200px" height="auto" alt="">
-<img src="" width="200px" height="auto" alt="">
-<img src="" width="200px" height="auto" alt="">
-<img src="" width="200px" height="auto" alt="">
-<img src="" width="200px" height="auto" alt="">
+<img src="./Readme-media/index-validation.png" width="200px" height="auto" alt="screenshot of index html validation">
+<img src="./Readme-media/validation-contact-pg.png" width="200px" height="auto" alt="screenshot of contact page html validation">
+<img src="./Readme-media/project-one-validation.png" width="200px" height="auto" alt="screenshot of project one html validation">
+<img src="./Readme-media/project-two-validation.png" width="200px" height="auto" alt="screenshot of project two html validation">
+<img src="./Readme-media/project-three-validation.png" width="200px" height="auto" alt="screenshot of project three html validation">
+<img src="./Readme-media/project-four-validation.png" width="200px" height="auto" alt="screenshot of project four html validation">
+
 
 
 
 #### Deployment
-Using Visual Studio Code to write my code. I created a GitHub repository, going on to clone it locally, developing it locally, committing and pushing to the remote repository.  Going on to deploy my site to GitHub, by following the guidance document. 
+I used Visual Studio Code to write my code and I used the terminal to commit and push my code. I also used Github Desktop to push code to Github. Using the terminal to create my commits after making any changes or additions. 
+
+I created a GitHub repository, Going on to deploy my site to GitHub, by following the guidance document. On Github, under Source, I changed the branch to Master for the branch I'm using. 
 
 #### Browser Compatibility
 I have tested my site on the following: 
@@ -150,6 +152,6 @@ The Instagram icon in the footer was generated through Bootstrap.  I also utiliz
 The media from the site were taken from Unsplash.com and pexels.com. With the images being compressed using tinypng.com and imagecompressor.com. 
 Colorhunt.co to choose a colour palette. 
 My mentor provided me with the ‘https://formdump.codeinstitute.net’ for my form to be actioned too. 
-www.w3schools.com and developer.mozilla.org/en-US/ for referencing. 
+I utilized www.w3schools.com and developer.mozilla.org/en-US/ for referencing. 
 
 
