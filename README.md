@@ -7,20 +7,16 @@ User One - I would want the profile picture on the first page and then pictures 
 User Two- I enjoyed the colours of the site, the website flows nicely. 
 
 #### Strategy 
-The aim of the website is to showcase the artists portfolio, furthermore, to provide a contact space for acquisition of artists’ work. 
-Advertise,
-to provide information of upcoming and previous exhibitions.
+The aim of the website is to showcase the artists portfolio by providing clear images of the artists work with the individual projects clearly seperated and cleanly presented with accurate descriptions of the work. Furthermore the site provides a contact space for acquisition of artists’ work, to aquire general individual further information. 
+Advertise the artists skill and craft in a well presented manner as well as to provide information of upcoming and previous exhibitions.
 
 #### Scope – Function
 The site must be clear, and the images and work well define, to differentiate between the projects.
 The site must be minimalist to not distract from the images of artists work. 
 
 #### Scope – Content 
-The ideal customer visiting the website would consist of galleries, private buyers as well as small boutique businesses. Private buyers would be from affluent social economical backgrounds. 
-where? 
-
-
-Visitors to the site would also include curators as well as students. 
+The ideal customer visiting the website would consist of individual and corporate galleries, private buyers as well as small boutique businesses. Private buyers would be from affluent social economical backgrounds. 
+Visitors to the site would also include private curators for their clients as well as arts and ceramic students wanting to explore the work. 
 Clearly illustrate who the artist is, inform the site visitor of the artists current exhibitions and the future exhibitions. 
 
 
@@ -137,8 +133,7 @@ Putting the site through the valiidator also found that on the about.page, I had
 
 #### Deployment
 I used Visual Studio Code to write my code and I used the terminal to commit and push my code. I also used Github Desktop to push code to Github. Using the terminal to create my commits after making any changes or additions. 
-
-I created a GitHub repository, Going on to deploy my site to GitHub, by following the guidance document. On Github, under Source, I changed the branch to Master for the branch I'm using. 
+After creating a GitHub repository, Going on to deploy my site to GitHub, by following the guidance document. On Github, under Source, I changed the branch to Master for the branch I'm using. To get the link for my site I had to go to github pages.
 
 #### Browser Compatibility
 I have tested my site on the following: 
