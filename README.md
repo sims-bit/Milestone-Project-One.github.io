@@ -103,7 +103,7 @@ The site was tested on various screen sizes through Dev Tools to ensure website 
 
 | Test Description | Outcome | Status |
 |---  | --- | --- | 
-| Testing the anchored images on the landing page | | Passed| 
+| Testing the anchored images on the landing page | Anchored images take you to the correct page | Passed| 
 | Testing the social media icon | Clicking the social media icon takes you to a new window | Passed |
 | Testing the contact form submission | Resulting in the information being sent to the code institute form dump | Passed |
 | Testing that the additional information was required within the form | The form will not submit without all information filled out | Passed |
