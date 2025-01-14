@@ -7,8 +7,15 @@ User One - I would want the profile picture on the first page and then pictures 
 User Two- I enjoyed the colours of the site, the website flows nicely. 
 
 #### Strategy 
-The aim of the website is to showcase the artists portfolio by providing clear images of the artists work with the individual projects clearly seperated and cleanly presented with accurate descriptions of the work. Furthermore the site provides a contact space for acquisition of artists’ work, to aquire general individual further information. 
-Advertise the artists skill and craft in a well presented manner as well as to provide information of upcoming and previous exhibitions.
+* The core aim of the website is to showcase the artists portfolio, furthermore to raise the artists profile and to develop a customer base through the self promotion of the website.
+
+* To provide supporting information for previous and upcoming exhitbitions. 
+
+* Provide professional presentation of the artists work with the individual projects clearly seperated
+
+* To provide a contact space for acquisition of artists’ work, to aquire general individual further information. 
+ 
+* To provide a link to social media for a more relaxed view of the artists work and to provide an opportunity to see the artists work in progress.
 
 #### Scope – Function
 The site must be clear, and the images and work well define, to differentiate between the projects.
@@ -93,15 +100,19 @@ I acquired user testing for the site.
 The site was tested on various screen sizes through Dev Tools to ensure website responsiveness across a variety of.   
 
 #### Manual Testing
-- Testing the anchored images on the landing page of the site to 
-- I tested that the social media button works and takes you to a new window
-- I tested that the contact form submit button worked, resulting in the information being sent to the code institute form dump. 
-- Testing that the additional information was required within the form. 
-- Clicking the links in the navigation will take you to the correct pages.
-- Checking the navigation works on all pages.
-- Checking the images are not stretched or pixelated larger screens. 
-- Testing that the video plays and has controls. 
 
+| Test Description | Outcome | Status |
+|---  | --- | --- | 
+| Testing the anchored images on the landing page | | Passed| 
+| Testing the social media icon | Clicking the social media icon takes you to a new window | Passed |
+| Testing the contact form submission | Resulting in the information being sent to the code institute form dump | Passed |
+| Testing that the additional information was required within the form | The form will not submit without all information filled out | Passed |
+| All links in the navigation work and linked to the correct pages | The links will take you to the correct pages | Passed |
+| Testing the navigation works on all pages | The navigation works the same on all pages of the site | Passed |
+| Checking the images are not stretched or pixelated larger screens | Images will resize to larger screens without stretching or becoming pixelated | Passed |
+| Testing that the video plays and has controls | The video plays correctly and has controls | Passed | 
+| Testing all pages load without errors | All pages load properly | Passed |
+ 
 
 #### Bugs and Fixes
 A issue that I encountered was  the renaming of my files in keeping with industry standard.  Requiring a change in my git config settings to stop being case insensitive as it was preventing the renaming of the files.
