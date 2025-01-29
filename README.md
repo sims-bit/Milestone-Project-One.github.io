@@ -143,6 +143,13 @@ Putting the site through the valiidator also found that on the about.page, I had
 
 
 #### Deployment
+The site was deployed to Github Pages, the steps are as follows:
+- Navigate to the to the settings tab from the Github repository.
+- From the source dropdown menu select the Main branch and then save.
+- The page will refresh automatically with successful deployment
+
+See live site [here](https://sims-bit.github.io/Milestone-Project-One.github.io/). 
+
 I used Visual Studio Code to write my code and I used the terminal to commit and push my code. I also used Github Desktop to push code to Github. Using the terminal to create my commits after making any changes or additions. 
 After creating a GitHub repository, Going on to deploy my site to GitHub, by following the guidance document. On Github, under Source, I changed the branch to Master for the branch I'm using. To get the link for my site I had to go to github pages.
 
