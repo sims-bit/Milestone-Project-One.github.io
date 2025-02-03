@@ -99,6 +99,9 @@ The site was put through W3C HTML & CSS validator.
 I acquired user testing for the site. 
 The site was tested on various screen sizes through Dev Tools to ensure website responsiveness across a variety of.   
 
+I utilsed Chrome Dev Tools Lighthouse to test the responsiveness of the site.
+<img src="./Readme-media/lighthouse-test-image.jpg" width="200px" height="auto" alt="screenshot of lighthouse test results.">
+
 #### Manual Testing
 
 | Test Description | Outcome | Status |
@@ -143,15 +146,35 @@ Putting the site through the valiidator also found that on the about.page, I had
 
 
 #### Deployment
-The site was deployed to Github Pages, the steps are as follows:
+The site was deployed to Github Pages from its [GitHub Repository](https://github.com/sims-bit/Milestone-Project-One.github.io.git), the steps are as follows:
+- Log into Github
 - Navigate to the to the settings tab from the Github repository.
 - From the source dropdown menu select the Main branch and then save.
-- The page will refresh automatically with successful deployment
+- The page will refresh automatically with successful deployment it will take a few moments.
+- Within Github scroll back down to Github Pages and you will be able to find the link to the deployed website.
+
 
 See live site [here](https://sims-bit.github.io/Milestone-Project-One.github.io/). 
 
+### Local Deployment
+
+Cloning the project from Github:
+- Within the [GitHub Repository](https://github.com/sims-bit/Milestone-Project-One.github.io.git) under the repository name select "Clone or Download"
+- Within the Clone with the HTTPs section, copy the repository URL.
+- Open Gitbash
+- Change the current directory to where you want the clone directory to be.
+- Type git clone, then paste the URL you copied earlier.
+
+- With making changes to the website, update the code as needed.
+- Open a new terminal and add- git add. 
+- Add- git commit -m "description of your update"
+- Add- git push
+
+
 I used Visual Studio Code to write my code and I used the terminal to commit and push my code. I also used Github Desktop to push code to Github. Using the terminal to create my commits after making any changes or additions. 
 After creating a GitHub repository, Going on to deploy my site to GitHub, by following the guidance document. On Github, under Source, I changed the branch to Master for the branch I'm using. To get the link for my site I had to go to github pages.
+
+
 
 #### Browser Compatibility
 I have tested my site on the following: 
