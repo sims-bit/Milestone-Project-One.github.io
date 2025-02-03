@@ -99,8 +99,16 @@ The site was put through W3C HTML & CSS validator.
 I acquired user testing for the site. 
 The site was tested on various screen sizes through Dev Tools to ensure website responsiveness across a variety of.   
 
-I utilsed Chrome Dev Tools Lighthouse to test the responsiveness of the site.
-<img src="./Readme-media/lighthouse-test-image.jpg" width="200px" height="auto" alt="screenshot of lighthouse test results.">
+I utilsed Chrome Dev Tools Lighthouse to test the Performance, Best Practices, Accessibilty and SEO of the site.
+<img src="./Readme-media/mobile-lighthouse.jpg" width="200px" height="auto" alt="screenshot of lighthouse test results.">
+
+<img src="./Readme-media/desktop-lighthouse.jpg" width="200px" height="auto" alt="screenshot of lighthouse test results.">
+
+Lighthouse provided suggestions on how to improve the performance, such as specifying the height and width of images within html. As well as the reduction of image size to increase performance. 
+
+<img src="./Readme-media/lighthouse-suggestions.jpg" width="200px" height="auto" alt="screenshot of lighthouse test results.">
+
+
 
 #### Manual Testing
 
