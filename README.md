@@ -123,6 +123,7 @@ Lighthouse provided suggestions on how to improve the performance, such as speci
 | Checking the images are not stretched or pixelated larger screens | Images will resize to larger screens without stretching or becoming pixelated | Passed |
 | Testing that the video plays and has controls | The video plays correctly and has controls | Passed | 
 | Testing all pages load without errors | All pages load properly | Passed |
+| Testing the responsiveness | Using Chrome Dev Tools Lighthouse test thePerformance, Best Practices, Accessibilty and SEO of the site | Passed |
  
 
 #### Bugs and Fixes
